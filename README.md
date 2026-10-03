@@ -36,3 +36,7 @@ npm start
 初次启动导入现有网站内容，其中示例仍标为示例。已有数据库时不会被初始内容覆盖。数据和密码不应提交到 Git。可用 `npm test` 验证独立登录、权限、上传、版本冲突。
 
 目前交付的是可运行的独立源码；尚未连接你们的托管账号、购买域名或部署到公网。现有 GPT/Sites 网址仍保留原来的浏览版本。
+
+Credits
+Created by Reiko and Lei.
+Concept, architecture & design developed together with Gabe ( ChatGPT )
