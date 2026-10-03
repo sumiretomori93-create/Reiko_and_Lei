@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d9eeec">
+  <meta name="description" content="浮光记忆馆，收藏两个人的记忆、意象、书信与每日痕迹。">
+  <title>浮光记忆馆 · Floating Light Archive</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%23d9eeec'/%3E%3Cellipse cx='16' cy='18' rx='11' ry='5' fill='none' stroke='%23234f56' stroke-width='1.2'/%3E%3Cellipse cx='16' cy='18' rx='6' ry='2.5' fill='none' stroke='%23234f56'/%3E%3Ccircle cx='16' cy='11' r='2' fill='%23f3e2e3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./components.css">
+  <link rel="stylesheet" href="./site.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./interactions.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <div class="site-scene" aria-hidden="true"></div>
+  <div class="site-shell">
+    <div class="site-frame">
+      <template id="header-template"><header class="site-header">
+        <a class="wordmark" href="#/" aria-label="浮光记忆馆首页">Floating Light Archive<span>Reiko &amp; Lei · 浮光记忆馆</span></a>
+        <nav class="site-nav" aria-label="主要导航">
+          <a href="#/archive">Archive</a><a href="#/imagination">Imagination</a><a href="#/mailbox">Mailbox</a>
+        </nav>
+      </header></template>
+      <main id="main" tabindex="-1"></main>
+      <footer class="site-footer"><a href="#/">浮光记忆馆</a><span>Floating Light Archive</span><a href="#/today">Today · 今日痕迹</a></footer>
+    </div>
+  </div>
+  <noscript><p class="noscript-note">请启用 JavaScript 查看记忆档案。</p></noscript>
+<script src="/member.js" defer></script>
+</body>
+</html>

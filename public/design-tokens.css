@@ -1,0 +1,66 @@
+/* Floating Light Archive — 倒数第二张视觉预览。
+ * 单块水玻璃；薄荷浅水、珍珠白、淡粉、奶油色。
+ */
+:root {
+  color-scheme: light;
+  --color-water: #d9eeec;
+  --color-aqua: #c9e3e8;
+  --color-pearl: #f7f8f4;
+  --color-silver: #e0e8e6;
+  --color-blush: #f3e2e3;
+  --color-cream: #f5eedb;
+  --color-ink: #234f56;
+  --color-ink-muted: #4f7075;
+  --color-ink-faint: #658086;
+  --color-line: rgb(255 255 255 / 58%);
+  --color-glass: rgb(255 255 255 / 12%);
+  --color-focus: #356f78;
+
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-display: "Songti SC", "Noto Serif SC", "Source Han Serif SC", serif;
+  --font-size-caption: .75rem;
+  --font-size-small: .875rem;
+  --font-size-body: 1rem;
+  --font-size-title: clamp(1.125rem, 1.5vw, 1.5rem);
+  --font-size-section: clamp(1.25rem, 2vw, 1.75rem);
+  --font-size-hero: clamp(2.5rem, 6.2vw, 5.5rem);
+  --font-weight-body: 400;
+  --font-weight-display: 300;
+  --line-height-body: 1.8;
+  --tracking-body: .06em;
+  --tracking-display: .12em;
+  --tracking-en: .28em;
+
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --page-gutter: clamp(1rem, 3vw, 3rem);
+  --sheet-padding: clamp(1.25rem, 4vw, 4rem);
+  --content-max: 80rem;
+  --reading-max: 40rem;
+  --radius-sheet: clamp(1.75rem, 3vw, 3rem);
+  --radius-image: .75rem;
+
+  --glass-blur: 8px;
+  --glass-border: 1px solid rgb(255 255 255 / 80%);
+  --glass-shadow: 0 16px 56px rgb(52 91 96 / 9%), inset 0 1px 2px rgb(255 255 255 / 90%), inset 0 -2px 5px rgb(111 157 160 / 15%);
+  --glass-edge-shadow: inset 2px 0 5px rgb(255 255 255 / 85%), inset -2px 0 6px rgb(183 218 217 / 60%);
+  --surface-reading: rgb(247 248 244 / 88%);
+  --duration-fast: 160ms;
+  --duration-soft: 360ms;
+  --ease-soft: cubic-bezier(.2, .7, .3, 1);
+  --layer-background: 0;
+  --layer-content: 1;
+  --layer-overlay: 10;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-soft: 0ms; }
+}

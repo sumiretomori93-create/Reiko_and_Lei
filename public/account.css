@@ -1,0 +1,16 @@
+.account-shell,.editor-shell { position: relative; margin: 3rem auto; padding: 2rem; background: rgb(255 255 255 / 78%); }
+.account-shell { max-width: 30rem; }
+.editor-shell { max-width: 70rem; }
+.account-shell label,#record-form label { display: block; margin-block: 1rem; font-size: .875rem; }
+.account-shell input,#record-form input,#record-form textarea,#record-form select { display: block; width: 100%; margin-top: .4rem; padding: .7rem; color: var(--color-ink); background: rgb(255 255 255 / 64%); border: 1px solid #a4bdc2; border-radius: .5rem; }
+#record-form textarea { min-height: 7rem; resize: vertical; }
+.account-shell button,.editor-shell button { min-height: 44px; padding: .5rem .8rem; border: 1px solid #a4bdc2; border-radius: .5rem; background: rgb(255 255 255 / 45%); }
+.editor-layout { display: grid; grid-template-columns: 10rem 1fr; gap: 2rem; margin-top: 1.5rem; }
+#collections { display: flex; flex-direction: column; gap: .5rem; }
+#collections [aria-current="page"] { background: #d9eeec; }
+.editor-toolbar { display: flex; gap: .5rem; flex-wrap: wrap; margin-block: 1rem; }
+#records { flex: 1; min-width: 8rem; padding: .5rem; }
+#status { min-height: 2rem; overflow-wrap: anywhere; }
+.member-controls { position: fixed; right: 1rem; bottom: 1rem; z-index: 5; display: flex; align-items: center; gap: 1rem; padding: .5rem 1rem; background: rgb(255 255 255 / 85%); border: var(--glass-border); border-radius: 2rem; font-size: .875rem; }
+.member-controls a { min-height: 44px; display: flex; align-items: center; }
+@media(max-width:48rem){.account-shell,.editor-shell{margin:1rem;padding:1.25rem}.editor-layout{grid-template-columns:1fr}#collections{flex-direction:row;flex-wrap:wrap}.editor-shell .site-header{flex-direction:row;flex-wrap:wrap}}
